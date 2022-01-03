@@ -16,6 +16,8 @@ In order to classify the data and detect similarity among the different news art
 Our approach for data triage:
 - The original data is divided into training and testing sets. We initially train our models using the unaltered training dataset and perform classification of the test dataset.
 - Document similarity algorithms are implemented on the training data set to produce our training subsets. For each similarity algorithm, we set different thresholds based on our knowledge of the model and a series of experiments of the model.
+
+
 ![image](https://user-images.githubusercontent.com/22122136/145949654-a765a9da-a885-4163-9e1d-637acc3271ba.png)
 
 - Post dataset reduction, we follow a similar pipelines of operations by training our model on the data subset and performing classification of the test data.
